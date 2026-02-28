@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "vip.cdms.stub"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "vip.cdms.stub"
