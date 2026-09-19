@@ -1,21 +1,24 @@
 [versions]
 #noinspection AndroidGradlePluginVersion
 android-gradle-plugin = "8.12.0"
-kotlin = "2.1.20"
+#noinspection NewerVersionAvailable,GradleDependency
+kotlin = "2.2.0"
 
 #noinspection GradleDependency
 androidx-core-ktx = "1.15.0"
-androidx-activity-compose = "1.10.1"
-androidx-lifecycle-runtime-ktx = "2.8.7"
-androidx-compose-bom = "2025.04.00"
+androidx-activity-compose = "1.13.0"
+#noinspection GradleDependency
+androidx-lifecycle = "2.10.0"
+#noinspection GradleDependency
+androidx-compose-bom = "2026.06.01"
 junit = "4.13.2"
-androidx-test-ext-junit = "1.2.1"
-androidx-test-espresso-core = "3.6.1"
+androidx-test-ext-junit = "1.3.0"
+androidx-test-espresso-core = "3.7.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core-ktx" }
 androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "androidx-activity-compose" }
-androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-lifecycle-runtime-ktx" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
 
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidx-compose-bom" }
 androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
